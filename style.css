@@ -1,0 +1,35 @@
+.container{
+    background-color: whitesmoke;
+    height: 155vh;
+}
+
+.text{
+    padding-top: 20px;
+    text-align: center;
+}
+.text > h2{
+    font-weight: bold;
+    
+}
+.text > h3{
+    color: grey;
+} 
+.card{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+.border{
+    height: 10px;
+    width: 300px;
+    background-color: green;
+}
+.border > p{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+
