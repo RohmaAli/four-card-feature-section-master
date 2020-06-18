@@ -1,0 +1,62 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+/* * is used to apply properties on all tags */
+/* border box search krna hy */
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Very-Light-Gray);
+}
+
+.text-primary {
+    color: var(--very-dark-blue) !important;
+
+}
+
+section > p {
+    width: 50%;
+    color: var(--Very-Light-Gray);
+
+}
+
+
+.supervisor {
+    border-top: 3px solid var(--Cyan);
+}
+
+.team-builder {
+    border-top: 3px solid var(--red);
+
+}
+
+.karma {
+    border-top: 3px solid var(--Orange);
+
+}
+
+.calculator {
+    border-top: 3px solid var(--Blue);
+
+}
+
+.card  p{
+    font-size: 12px;
+    color: var(--Very-Light-Gray);
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}

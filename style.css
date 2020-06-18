@@ -25,7 +25,7 @@
 .border{
     height: 10px;
     width: 300px;
-    background-color: green;
+    /* background-color: green; */
 }
 .border > p{
     padding-top: 15px;
